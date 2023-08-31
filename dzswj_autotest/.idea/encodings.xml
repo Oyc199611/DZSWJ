@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/common/request_util.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/test_data/test_send_request.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/test_data/test_submit.yml" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

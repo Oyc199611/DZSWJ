@@ -1,0 +1,111 @@
+[ {
+  "uid" : "ea56cec89e46c029",
+  "name" : "test_BsjdQuery[caseinfo0]",
+  "time" : {
+    "start" : 1693311544220,
+    "stop" : 1693311544526,
+    "duration" : 306
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3ec68099a0c4180",
+  "name" : "test_BsjdQuery[caseinfo7]",
+  "time" : {
+    "start" : 1693311545862,
+    "stop" : 1693311546061,
+    "duration" : 199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "372889029f2219ca",
+  "name" : "test_BsjdQuery[caseinfo6]",
+  "time" : {
+    "start" : 1693311545654,
+    "stop" : 1693311545856,
+    "duration" : 202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc964a1262ad989e",
+  "name" : "test_BsjdQuery[caseinfo2]",
+  "time" : {
+    "start" : 1693311544620,
+    "stop" : 1693311544720,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d7634f9b3460126",
+  "name" : "test_BsjdQuery[caseinfo9]",
+  "time" : {
+    "start" : 1693311546303,
+    "stop" : 1693311546572,
+    "duration" : 269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9dc81ab68024a01",
+  "name" : "test_BsjdQuery[caseinfo3]",
+  "time" : {
+    "start" : 1693311544730,
+    "stop" : 1693311545152,
+    "duration" : 422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b6d3b7aecafcc31",
+  "name" : "test_BsjdQuery[caseinfo8]",
+  "time" : {
+    "start" : 1693311546065,
+    "stop" : 1693311546268,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "651aa0b2c3568d04",
+  "name" : "test_BsjdQuery[caseinfo10]",
+  "time" : {
+    "start" : 1693311546577,
+    "stop" : 1693311546790,
+    "duration" : 213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b133ad02b3205f",
+  "name" : "test_BsjdQuery[caseinfo5]",
+  "time" : {
+    "start" : 1693311545390,
+    "stop" : 1693311545650,
+    "duration" : 260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd291f4273bfd398",
+  "name" : "test_BsjdQuery[caseinfo4]",
+  "time" : {
+    "start" : 1693311545157,
+    "stop" : 1693311545352,
+    "duration" : 195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b81604ad822227dd",
+  "name" : "test_BsjdQuery[caseinfo1]",
+  "time" : {
+    "start" : 1693311544526,
+    "stop" : 1693311544620,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

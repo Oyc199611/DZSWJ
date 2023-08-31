@@ -1,0 +1,3 @@
+  -
+    database: shjcpt
+    sql: SELECT *  FROM xt_xtcs where param_code = 'XTCS_DBSX_LX_20220516_BAK'

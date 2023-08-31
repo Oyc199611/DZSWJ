@@ -1,0 +1,44 @@
+-
+  name: 无数据参数
+  datas: {"rqq":"2023-08-04","rqz":"2023-08-25","bsjd":"","rwmc":"","bsjdlx":"","kqhDjxh":"","sfsbDm":"","fromtc":""}
+  validate: True
+-
+  name: 缺少必填项rqq参数
+  datas: {"rqq":"","rqz":"2023-08-25","bsjd":"","rwmc":"","bsjdlx":"","kqhDjxh":"","sfsbDm":"","fromtc":""}
+  validate: '办税进度参数有空!'
+-
+  name: 缺少必填项rqz参数
+  datas: {"rqq":"2023-08-04","rqz":"","basjd":"","rwmc":"","bsjdlx":"","kqhDjxh":"","sfsbDm":"","fromtc":""}
+  validate: '办税进度参数有空!'
+-
+  name: 根据任务名称查询有数据
+  datas: {"rqq":"2023-05-04","rqz":"2023-08-25","bsjd":"","rwmc":"变更税务登记","bsjdlx":"","kqhDjxh":"","sfsbDm":"","fromtc":""}
+  validate: True
+-
+  name: 根据办税进度查询01状态
+  datas: {"rqq":"2023-08-04","rqz":"2023-08-25","bsjd":"01","rwmc":"","bsjdlx":"","kqhDjxh":"","sfsbDm":"","fromtc":""}
+  validate: True
+-
+  name: 根据办税进度查询02状态
+  datas: {"rqq":"2023-08-04","rqz":"2023-08-25","bsjd":"02","rwmc":"","bsjdlx":"","kqhDjxh":"","sfsbDm":"","fromtc":""}
+  validate: True
+-
+  name: 根据办税进度查询03状态
+  datas: {"rqq":"2023-08-04","rqz":"2023-08-25","bsjd":"03","rwmc":"","bsjdlx":"","kqhDjxh":"","sfsbDm":"","fromtc":""}
+  validate: True
+-
+  name: 根据办税进度查询04状态
+  datas: {"rqq":"2023-08-04","rqz":"2023-08-25","bsjd":"04","rwmc":"","bsjdlx":"","kqhDjxh":"","sfsbDm":"","fromtc":""}
+  validate: True
+-
+  name: 根据办税进度查询05状态
+  datas: {"rqq":"2023-08-04","rqz":"2023-08-25","bsjd":"05","rwmc":"","bsjdlx":"","kqhDjxh":"","sfsbDm":"","fromtc":""}
+  validate: True
+-
+  name: 根据办税进度查询06状态
+  datas: {"rqq":"2023-08-04","rqz":"2023-08-25","bsjd":"06","rwmc":"","bsjdlx":"","kqhDjxh":"","sfsbDm":"","fromtc":""}
+  validate: True
+-
+  name: 根据办税进度异常受理状态数据
+  datas: {"rqq":"2023-05-04","rqz":"2023-03-25","bsjd":"07","rwmc":"变更税务登记","bsjdlx":"","kqhDjxh":"","sfsbDm":"","fromtc":""}
+  validate: True

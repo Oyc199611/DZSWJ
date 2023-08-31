@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/api" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/case" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/common" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/case/test.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/getpathinfo.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/logs" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/report" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/unittest_test" charset="GBK" />
+  </component>
+</project>
