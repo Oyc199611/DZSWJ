@@ -4,141 +4,141 @@
   "children" : [ {
     "name" : "oyc",
     "children" : [ {
-      "name" : "19660-MainThread",
+      "name" : "13304-MainThread",
       "children" : [ {
-        "name" : "test_BsjdQuery[caseinfo0]",
-        "uid" : "ea56cec89e46c029",
-        "parentUid" : "d2b17d0c5ba9efeb19c230b0ff554ee4",
+        "name" : "test_BsjdQuery[caseinfo2]",
+        "uid" : "2b07354a688555a",
+        "parentUid" : "de15ba30a91bff622801f2f8f218448e",
         "status" : "passed",
         "time" : {
-          "start" : 1693311544220,
-          "stop" : 1693311544526,
+          "start" : 1693486505456,
+          "stop" : 1693486505596,
+          "duration" : 140
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': '缺少必填项rqz参数', 'data': {'rqq': '2023-08-04', 'rqz': '', 'basjd': '', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': '办税进度参数有空!'}" ]
+      }, {
+        "name" : "test_BsjdQuery[caseinfo7]",
+        "uid" : "e233a5a3ba3b0afd",
+        "parentUid" : "de15ba30a91bff622801f2f8f218448e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693486506466,
+          "stop" : 1693486506609,
+          "duration" : 143
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': '根据办税进度查询04状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '04', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
+      }, {
+        "name" : "test_BsjdQuery[caseinfo0]",
+        "uid" : "a6718a6673702b25",
+        "parentUid" : "de15ba30a91bff622801f2f8f218448e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693486505067,
+          "stop" : 1693486505373,
           "duration" : 306
         },
         "flaky" : false,
         "parameters" : [ "{'name': '无数据参数', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
       }, {
-        "name" : "test_BsjdQuery[caseinfo7]",
-        "uid" : "b3ec68099a0c4180",
-        "parentUid" : "d2b17d0c5ba9efeb19c230b0ff554ee4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1693311545862,
-          "stop" : 1693311546061,
-          "duration" : 199
-        },
-        "flaky" : false,
-        "parameters" : [ "{'name': '根据办税进度查询04状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '04', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
-      }, {
-        "name" : "test_BsjdQuery[caseinfo6]",
-        "uid" : "372889029f2219ca",
-        "parentUid" : "d2b17d0c5ba9efeb19c230b0ff554ee4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1693311545654,
-          "stop" : 1693311545856,
-          "duration" : 202
-        },
-        "flaky" : false,
-        "parameters" : [ "{'name': '根据办税进度查询03状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '03', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
-      }, {
-        "name" : "test_BsjdQuery[caseinfo2]",
-        "uid" : "fc964a1262ad989e",
-        "parentUid" : "d2b17d0c5ba9efeb19c230b0ff554ee4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1693311544620,
-          "stop" : 1693311544720,
-          "duration" : 100
-        },
-        "flaky" : false,
-        "parameters" : [ "{'name': '缺少必填项rqz参数', 'data': {'rqq': '2023-08-04', 'rqz': '', 'basjd': '', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': '办税进度参数有空!'}" ]
-      }, {
-        "name" : "test_BsjdQuery[caseinfo9]",
-        "uid" : "7d7634f9b3460126",
-        "parentUid" : "d2b17d0c5ba9efeb19c230b0ff554ee4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1693311546303,
-          "stop" : 1693311546572,
-          "duration" : 269
-        },
-        "flaky" : false,
-        "parameters" : [ "{'name': '根据办税进度查询06状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '06', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
-      }, {
-        "name" : "test_BsjdQuery[caseinfo3]",
-        "uid" : "a9dc81ab68024a01",
-        "parentUid" : "d2b17d0c5ba9efeb19c230b0ff554ee4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1693311544730,
-          "stop" : 1693311545152,
-          "duration" : 422
-        },
-        "flaky" : false,
-        "parameters" : [ "{'name': '根据任务名称查询有数据', 'data': {'rqq': '2023-05-04', 'rqz': '2023-08-25', 'bsjd': '', 'rwmc': '变更税务登记', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
-      }, {
         "name" : "test_BsjdQuery[caseinfo8]",
-        "uid" : "6b6d3b7aecafcc31",
-        "parentUid" : "d2b17d0c5ba9efeb19c230b0ff554ee4",
+        "uid" : "37e9ecd4bd7fb00f",
+        "parentUid" : "de15ba30a91bff622801f2f8f218448e",
         "status" : "passed",
         "time" : {
-          "start" : 1693311546065,
-          "stop" : 1693311546268,
-          "duration" : 203
+          "start" : 1693486506618,
+          "stop" : 1693486506769,
+          "duration" : 151
         },
         "flaky" : false,
         "parameters" : [ "{'name': '根据办税进度查询05状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '05', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
       }, {
         "name" : "test_BsjdQuery[caseinfo10]",
-        "uid" : "651aa0b2c3568d04",
-        "parentUid" : "d2b17d0c5ba9efeb19c230b0ff554ee4",
+        "uid" : "4532c6240ab7e5",
+        "parentUid" : "de15ba30a91bff622801f2f8f218448e",
         "status" : "passed",
         "time" : {
-          "start" : 1693311546577,
-          "stop" : 1693311546790,
-          "duration" : 213
+          "start" : 1693486506916,
+          "stop" : 1693486507063,
+          "duration" : 147
         },
         "flaky" : false,
         "parameters" : [ "{'name': '根据办税进度异常受理状态数据', 'data': {'rqq': '2023-05-04', 'rqz': '2023-03-25', 'bsjd': '07', 'rwmc': '变更税务登记${get_randon_number(1000,2000)}', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
       }, {
-        "name" : "test_BsjdQuery[caseinfo5]",
-        "uid" : "6b133ad02b3205f",
-        "parentUid" : "d2b17d0c5ba9efeb19c230b0ff554ee4",
+        "name" : "test_BsjdQuery[caseinfo1]",
+        "uid" : "3a783c29b3463caa",
+        "parentUid" : "de15ba30a91bff622801f2f8f218448e",
         "status" : "passed",
         "time" : {
-          "start" : 1693311545390,
-          "stop" : 1693311545650,
-          "duration" : 260
+          "start" : 1693486505380,
+          "stop" : 1693486505452,
+          "duration" : 72
         },
         "flaky" : false,
-        "parameters" : [ "{'name': '根据办税进度查询02状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '02', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
+        "parameters" : [ "{'name': '缺少必填项rqq参数', 'data': {'rqq': '', 'rqz': '2023-08-25', 'bsjd': '', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': '办税进度参数有空!'}" ]
       }, {
-        "name" : "test_BsjdQuery[caseinfo4]",
-        "uid" : "dd291f4273bfd398",
-        "parentUid" : "d2b17d0c5ba9efeb19c230b0ff554ee4",
+        "name" : "test_BsjdQuery[caseinfo9]",
+        "uid" : "41fbb902a691ffd7",
+        "parentUid" : "de15ba30a91bff622801f2f8f218448e",
         "status" : "passed",
         "time" : {
-          "start" : 1693311545157,
-          "stop" : 1693311545352,
-          "duration" : 195
+          "start" : 1693486506772,
+          "stop" : 1693486506913,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': '根据办税进度查询06状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '06', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
+      }, {
+        "name" : "test_BsjdQuery[caseinfo3]",
+        "uid" : "e2e70b45185f6e2f",
+        "parentUid" : "de15ba30a91bff622801f2f8f218448e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693486505600,
+          "stop" : 1693486505876,
+          "duration" : 276
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': '根据任务名称查询有数据', 'data': {'rqq': '2023-05-04', 'rqz': '2023-08-25', 'bsjd': '', 'rwmc': '变更税务登记', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
+      }, {
+        "name" : "test_BsjdQuery[caseinfo6]",
+        "uid" : "b8392a7f0dc3f864",
+        "parentUid" : "de15ba30a91bff622801f2f8f218448e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693486506259,
+          "stop" : 1693486506460,
+          "duration" : 201
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': '根据办税进度查询03状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '03', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
+      }, {
+        "name" : "test_BsjdQuery[caseinfo4]",
+        "uid" : "792ef4db2ab7d459",
+        "parentUid" : "de15ba30a91bff622801f2f8f218448e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693486505880,
+          "stop" : 1693486506077,
+          "duration" : 197
         },
         "flaky" : false,
         "parameters" : [ "{'name': '根据办税进度查询01状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '01', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
       }, {
-        "name" : "test_BsjdQuery[caseinfo1]",
-        "uid" : "b81604ad822227dd",
-        "parentUid" : "d2b17d0c5ba9efeb19c230b0ff554ee4",
+        "name" : "test_BsjdQuery[caseinfo5]",
+        "uid" : "449215edc7434349",
+        "parentUid" : "de15ba30a91bff622801f2f8f218448e",
         "status" : "passed",
         "time" : {
-          "start" : 1693311544526,
-          "stop" : 1693311544620,
-          "duration" : 94
+          "start" : 1693486506084,
+          "stop" : 1693486506254,
+          "duration" : 170
         },
         "flaky" : false,
-        "parameters" : [ "{'name': '缺少必填项rqq参数', 'data': {'rqq': '', 'rqz': '2023-08-25', 'bsjd': '', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': '办税进度参数有空!'}" ]
+        "parameters" : [ "{'name': '根据办税进度查询02状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '02', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
       } ],
-      "uid" : "d2b17d0c5ba9efeb19c230b0ff554ee4"
+      "uid" : "de15ba30a91bff622801f2f8f218448e"
     } ],
     "uid" : "0840f289450e91746b33dc2edbd907dd"
   } ]
