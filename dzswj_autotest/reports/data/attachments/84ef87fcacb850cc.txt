@@ -1,0 +1,4 @@
+INFO     root:logger.py:48 test_BsjdQuery:------获取请求参数：------{'rqq': '2023-05-04', 'rqz': '2023-03-25', 'bsjd': '07', 'rwmc': '变更税务登记${get_randon_number(1000,2000)}', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}
+INFO     root:logger.py:48 test_BsjdQuery:------用例场景：------根据办税进度异常受理状态数据
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://10.199.20.221:8081 "POST /yhs-web/api/bsjd/query/list HTTP/1.1" 200 None
+INFO     root:logger.py:48 test_BsjdQuery:获取请求结果：{'message': None, 'value': [], 'success': True, 'msgCode': None, 'resultMap': {}, 'msgParams': None, 'jylsh': '463dc45977f342298528f65b1256703a'}

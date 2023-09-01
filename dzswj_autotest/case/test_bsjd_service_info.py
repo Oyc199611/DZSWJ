@@ -9,7 +9,7 @@ import allure
 import pytest
 
 from dzswj_autotest.api.api_service import Api_Auth_Service
-from dzswj_autotest.common.connect_oracle import select_sql, execute_sql
+from dzswj_autotest.common.connect_oracle import execute_sql, select_sql
 from dzswj_autotest.common.logger import Log
 from dzswj_autotest.common.yml_util import YamlUtil
 
@@ -56,9 +56,14 @@ class Test_Service_Info(object):
         self.log.info('%s:%s' % (sys._getframe().f_code.co_name, '获取请求结果：%s' % data))
         # 断言
         if data["success"] == True and len(data["value"]) != 0:
-            assert data["success"] == caseinfo['validate']
-            # sqxh = data["value"]["sqxh"]
-            # sql = "delete  ws_sqqk where sqxh ="+"'"+sqxh+"'"
-            # execute_sql(sql, 'wtwscl', 'wtwscl')
+            sqxh = data["value"]["sqxh"]
+            sql_query = "select sqxh from ws_sqqk where sqxh ="+"'"+sqxh+"'"
+            result = select_sql(sql_query, 'wtwscl', 'wtwscl')
+            if result is not None:
+                assert sqxh == result[0]["SQXH"]
+            else:
+                assert 1 == 2
+            sql = "delete  ws_sqqk where sqxh ="+"'"+sqxh+"'"
+            execute_sql(sql, 'wtwscl', 'wtwscl')
         else:
             assert data["success"] == False
