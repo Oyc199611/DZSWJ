@@ -1,4 +1,0 @@
-INFO     root:logger.py:48 test_BsjdQuery:------获取请求参数：------{'rqq': '2023-08-04', 'rqz': '', 'basjd': '', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}
-INFO     root:logger.py:48 test_BsjdQuery:------用例场景：------缺少必填项rqz参数
-DEBUG    urllib3.connectionpool:connectionpool.py:456 http://10.199.20.221:8081 "POST /yhs-web/api/bsjd/query/list HTTP/1.1" 200 None
-INFO     root:logger.py:48 test_BsjdQuery:获取请求结果：{'message': '办税进度参数有空!', 'value': None, 'success': False, 'msgCode': '4433', 'resultMap': {}, 'msgParams': [], 'jylsh': '204d980948b0417e9eedcbae86a184e8'}
