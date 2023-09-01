@@ -1,0 +1,101 @@
+2023-09-01 15:10:15.602 | INFO | run step begin: /user/login >>>>>>
+2023-09-01 15:10:15.609 | DEBUG | ====== request details ======
+url: https://www.tianqiapi.com/user/login
+method: POST
+params: {}
+data: {
+    "password": "ouyangchao199611",
+    "registerSubmit": "",
+    "username": "13767594293@163.com"
+}
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+headers: {
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+    "X-Requested-With": "XMLHttpRequest",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "HRUN-Request-ID": "HRUN-95ca3e48-84a8-4d1a-92aa-12291e461137-215609"
+}
+json: None
+
+2023-09-01 15:10:16.487 | DEBUG | client IP: 192.168.137.201, Port: 50570
+2023-09-01 15:10:16.499 | DEBUG | server IP: 47.94.253.28, Port: 443
+2023-09-01 15:10:16.499 | DEBUG | 
+================== request details ==================
+method   : POST
+url      : https://www.tianqiapi.com/user/login
+headers  : {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+    "X-Requested-With": "XMLHttpRequest",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "HRUN-Request-ID": "HRUN-95ca3e48-84a8-4d1a-92aa-12291e461137-215609",
+    "Content-Length": "72"
+}
+cookies  : {}
+body     : password=ouyangchao199611&registerSubmit=&username=13767594293%40163.com
+
+2023-09-01 15:10:16.499 | DEBUG | 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "nginx",
+    "Date": "Fri, 01 Sep 2023 07:10:23 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Set-Cookie": "tianqiapi_jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjEyMjYwNyIsImlhdCI6MTY5MzU1MjIyMywibmJmIjoxNjkzNTUyMjIzLCJleHAiOjE2OTQxNTcwMjN9.0af73vxF-8Y7zvGncUgXZY5kOuhYGQ5v19F1BGmtPBw; expires=Fri, 08-Sep-2023 07:10:23 GMT; Max-Age=604800; path=/",
+    "Content-Encoding": "gzip"
+}
+cookies  : {
+    "tianqiapi_jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjEyMjYwNyIsImlhdCI6MTY5MzU1MjIyMywibmJmIjoxNjkzNTUyMjIzLCJleHAiOjE2OTQxNTcwMjN9.0af73vxF-8Y7zvGncUgXZY5kOuhYGQ5v19F1BGmtPBw"
+}
+encoding : utf-8
+content_type : application/json
+body     : {
+    "errcode": 0,
+    "errmsg": "success"
+}
+
+2023-09-01 15:10:16.499 | INFO | status_code: 200, response_time(ms): 877.74 ms, response_length: 0 bytes
+2023-09-01 15:10:16.505 | DEBUG | ====== response details ======
+status_code: 200
+headers: {
+    "Server": "nginx",
+    "Date": "Fri, 01 Sep 2023 07:10:23 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Set-Cookie": "tianqiapi_jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjEyMjYwNyIsImlhdCI6MTY5MzU1MjIyMywibmJmIjoxNjkzNTUyMjIzLCJleHAiOjE2OTQxNTcwMjN9.0af73vxF-8Y7zvGncUgXZY5kOuhYGQ5v19F1BGmtPBw; expires=Fri, 08-Sep-2023 07:10:23 GMT; Max-Age=604800; path=/",
+    "Content-Encoding": "gzip"
+}
+body: {
+    "errcode": 0,
+    "errmsg": "success"
+}
+
+2023-09-01 15:10:16.505 | INFO | assert status_code equal 200(int)	==> pass
+2023-09-01 15:10:16.505 | INFO | assert headers."Content-Type" equal application/json(str)	==> pass
+2023-09-01 15:10:16.511 | INFO | assert body.errcode equal 0(int)	==> pass
+2023-09-01 15:10:16.511 | INFO | assert body.errmsg equal success(str)	==> pass
+2023-09-01 15:10:16.511 | INFO | run step end: /user/login <<<<<<
+
+2023-09-01 15:10:16.523 | INFO | generate testcase log: D:\pycharm\PycharmProject\DZSWJ\httprunner_test\logs\95ca3e48-84a8-4d1a-92aa-12291e461137.run.log
