@@ -57,8 +57,8 @@ class Test_Service_Info(object):
         # 断言
         if data["success"] == True and len(data["value"]) != 0:
             assert data["success"] == caseinfo['validate']
-            sqxh = data["value"]["sqxh"]
-            sql = "delete  ws_sqqk where sqxh ="+"'"+sqxh+"'"
-            execute_sql(sql, 'wtwscl', 'wtwscl')
+            # sqxh = data["value"]["sqxh"]
+            # sql = "delete  ws_sqqk where sqxh ="+"'"+sqxh+"'"
+            # execute_sql(sql, 'wtwscl', 'wtwscl')
         else:
             assert data["success"] == False

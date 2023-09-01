@@ -72,12 +72,13 @@ def execute_sql(sql, user, password):
 
 
 # if __name__ == '__main__':
-    # sql = "SELECT *  FROM xt_xtcs where param_code = 'XTCS_DBSX_LX_20220516_BAK'"
-    # # 结果格式 [{'XH': 20220516091200000001, 'PARAM_CODE': 'XTCS_DBSX_LX_20220516_BAK', 'PARAM_VALUE': 'WS,SB,NSRDB',
-    # # 'PARAM_DESC': '我的待办查询', 'SWJG_DM': None, 'APP_CODE': None, 'PLUGIN_CODE': None, 'SENSITIVE_FIELDS': '0'}]
-    # 查询语句一定要有结果，不然会报错
-    # sel = select_sql(sql, 'wtjcpt', 'wtjcpt')[0]["XH"]
-    # print(sel)
+#     sql = "SELECT djxh  FROM ws_sqqk where sqxh = 'c50c7c0fe2f04f42bbb923297e7219bd'"
+#     # 结果格式 [{'XH': 20220516091200000001, 'PARAM_CODE': 'XTCS_DBSX_LX_20220516_BAK', 'PARAM_VALUE': 'WS,SB,NSRDB',
+#     # 'PARAM_DESC': '我的待办查询', 'SWJG_DM': None, 'APP_CODE': None, 'PLUGIN_CODE': None, 'SENSITIVE_FIELDS': '0'}]
+#     # 查询语句一定要有结果，不然会报错
+#     sel = select_sql(sql, 'wtwscl', 'wtwscl')
+#     if sel is not None:
+#         print(sel)
 
 
 

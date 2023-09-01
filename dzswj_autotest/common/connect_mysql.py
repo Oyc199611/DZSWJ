@@ -55,6 +55,7 @@ def select_sql(select_sql, database):  # database = 具体用户
         return result
 
 
+
 def execute_sql(self, sql, database):
     """执行SQL"""
     db = DbConnect(dbinfo, database=database)
@@ -63,8 +64,8 @@ def execute_sql(self, sql, database):
     db.close()
 
 
-if __name__ == '__main__':
-    sql = "SELECT *  FROM xt_xtcs where param_code = '1212'"
-    sel = select_sql(sql, "shjcpt")[0]["xh"]
-    # sel = select_sql(sql, "shjcpt")
-    print(sel)
+# if __name__ == '__main__':
+#     sql = "SELECT *  FROM xt_xtcs where param_code = 'XTCS_DBSX_LX_20220516_BAK'"
+#     sel = select_sql(sql, "shjcpt")
+#     if sel is not None:
+#         print(sel)

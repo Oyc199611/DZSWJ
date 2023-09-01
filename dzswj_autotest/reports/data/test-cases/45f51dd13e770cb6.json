@@ -1,0 +1,167 @@
+{
+  "uid" : "45f51dd13e770cb6",
+  "name" : "test_BsjdQuery[caseinfo0]",
+  "fullName" : "case.test_bsjd_service_info.Test_Service_Info#test_BsjdQuery",
+  "historyId" : "e828b16d0b13299fbaaaee9ac32c49ea",
+  "time" : {
+    "start" : 1693565625065,
+    "stop" : 1693565625197,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1693565625025,
+      "stop" : 1693565625025,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "host",
+    "time" : {
+      "start" : 1693565625064,
+      "stop" : 1693565625064,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1693565625025,
+      "stop" : 1693565625025,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1693565625025,
+      "stop" : 1693565625064,
+      "duration" : 39
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1693565624964,
+      "stop" : 1693565625025,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "办税进度查询",
+      "time" : {
+        "start" : 1693565625065,
+        "stop" : 1693565625196,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "caseinfo",
+        "value" : "{'name': '无数据参数', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "adb08743406a97a7",
+      "name" : "log",
+      "source" : "adb08743406a97a7.txt",
+      "type" : "text/plain",
+      "size" : 5338
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_bsjd_service_info"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Service_Info"
+  }, {
+    "name" : "host",
+    "value" : "oyc"
+  }, {
+    "name" : "thread",
+    "value" : "27148-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_bsjd_service_info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'name': '无数据参数', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45f51dd13e770cb6.json",
+  "parameterValues" : [ "{'name': '无数据参数', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
+}
