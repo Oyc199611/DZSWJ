@@ -2,8 +2,8 @@
 import os
 import pytest
 
-from api.get_token import Get_Token
-from common.yml_util import YamlUtil
+from dzswj_autotest.api.get_token import Get_Token
+from dzswj_autotest.common.yml_util import YamlUtil
 
 
 @pytest.fixture(scope="function", autouse=False)  # autouse=False需要手动调用，作用于函数，fixture下面的函数可以作为一个参数被调用
@@ -48,6 +48,7 @@ def get_token():
     # RequestUtil().session.close()
 
 
+# 设置环境地址
 def pytest_addoption(parser):
     parser.addoption(
         "--cmdhost", action="store", default="http://10.199.20.221:8081",

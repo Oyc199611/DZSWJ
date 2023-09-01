@@ -12,7 +12,7 @@ import os
 import urllib3
 
 
-class Get_Token(object):
+class Get_Token:
 
     def get_token(self, djxh='****', nsrsbh='****'):
         # url = "http://192.168.2.199:9092/v1/auth/developer/accountLogin"

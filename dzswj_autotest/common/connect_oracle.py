@@ -3,12 +3,13 @@
 @Author : oyc
 @Time : 2023/8/24 11:25
 """
-import cx_Oracle
 
+
+import datetime
+import cx_Oracle as Co
 """
 Code description: 配置连接数据库
 """
-
 dbinfo = {
     "host": "10.199.20.64",
     "user": "root",
@@ -16,30 +17,31 @@ dbinfo = {
     "port": 3306
 }
 
-import cx_Oracle as Co
 
 
 class OracleCon:
     def __init__(self, user, password):
         # self.user = user
         # self.password = password
-        self.db = Co.connect(user+'/'+password+'@10.199.20.68:1521/xjdzswjcsdb')  # 连接数据库
+        self.db = Co.connect(user + '/' + password + '@10.199.20.68:1521/xjdzswjcsdb')  # 连接数据库
         self.cursor = self.db.cursor()  # 建游标
 
     def select(self, sql):
         # sql查询,并将结果以包含字段形式返回
         self.cursor.execute(sql)  # 执行sql
         results = self.cursor.fetchall()
-        for i in results:
-            list_list = list(i)
-            des = self.cursor.description  # 获取表详情，字段名，长度，属性等
-            t = ",".join([item[0] for item in des])
-            table_head = t.split(',')  # # 查询表列名 用,分割
-            dict_result = dict(zip(table_head, list_list))  # 打包为元组的列表 再转换为字典
-            list_result = []
-            list_result.append(dict_result)  # 将字典添加到list_result中
-        return list_result
-
+        if len(results) == 0:
+            print("暂未查询到数据")
+        else:
+            for i in results:
+                list_list = list(i)
+                des = self.cursor.description  # 获取表详情，字段名，长度，属性等
+                t = ",".join([item[0] for item in des])
+                table_head = t.split(',')  # # 查询表列名 用,分割
+                dict_result = dict(zip(table_head, list_list))  # 打包为元组的列表 再转换为字典
+                list_result = []
+                list_result.append(dict_result)  # 将字典添加到list_result中
+            return list_result
 
     def execute(self, sql):
         # sql 删除 提示 修改
@@ -69,9 +71,13 @@ def execute_sql(sql, user, password):
     db.close()
 
 
-if __name__ == '__main__':
-    sql = "SELECT *  FROM xt_xtcs where param_code = 'XTCS_DBSX_LX_20220516_BAK'"
-    # 结果格式 [{'XH': 20220516091200000001, 'PARAM_CODE': 'XTCS_DBSX_LX_20220516_BAK', 'PARAM_VALUE': 'WS,SB,NSRDB', 'PARAM_DESC': '我的待办查询', 'SWJG_DM': None, 'APP_CODE': None, 'PLUGIN_CODE': None, 'SENSITIVE_FIELDS': '0'}]
-    sel = select_sql(sql, 'wtjcpt', 'wtjcpt')[0]["XH"]
-    # 打印 20220516091200000001
-    print(sel)
+# if __name__ == '__main__':
+    # sql = "SELECT *  FROM xt_xtcs where param_code = 'XTCS_DBSX_LX_20220516_BAK'"
+    # # 结果格式 [{'XH': 20220516091200000001, 'PARAM_CODE': 'XTCS_DBSX_LX_20220516_BAK', 'PARAM_VALUE': 'WS,SB,NSRDB',
+    # # 'PARAM_DESC': '我的待办查询', 'SWJG_DM': None, 'APP_CODE': None, 'PLUGIN_CODE': None, 'SENSITIVE_FIELDS': '0'}]
+    # 查询语句一定要有结果，不然会报错
+    # sel = select_sql(sql, 'wtjcpt', 'wtjcpt')[0]["XH"]
+    # print(sel)
+
+
+

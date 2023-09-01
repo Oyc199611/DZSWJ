@@ -48,18 +48,23 @@ def select_sql(select_sql, database):  # database = 具体用户
     """查询数据库"""
     db = DbConnect(dbinfo, database=database)
     result = db.select(select_sql)
-    db.close()
-    return result
+    if len(result) == 0:
+        print("暂未查询到数据")
+    else:
+        db.close()
+        return result
 
 
-def execute_sql(sql, database):
+def execute_sql(self, sql, database):
     """执行SQL"""
     db = DbConnect(dbinfo, database=database)
     db.execute(sql)
+    self.db.commit()
     db.close()
 
+
 if __name__ == '__main__':
-    sql = "SELECT *  FROM xt_xtcs where param_code = 'XTCS_DBSX_LX_20220516_BAK'"
+    sql = "SELECT *  FROM xt_xtcs where param_code = '1212'"
     sel = select_sql(sql, "shjcpt")[0]["xh"]
     # sel = select_sql(sql, "shjcpt")
     print(sel)
