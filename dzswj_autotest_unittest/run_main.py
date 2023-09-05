@@ -34,3 +34,4 @@ if __name__ == '__main__':
     # 需要下载HTMLTestRunner.py 放到python/lib目录下
     runner = HTMLTestRunner(stream=fp, title="接口自动化测试报告", description='报告详情如下')
     runner.run(suite)
+l

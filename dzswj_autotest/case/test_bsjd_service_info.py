@@ -63,7 +63,7 @@ class Test_Service_Info(object):
                 assert sqxh == result[0]["SQXH"]
             else:
                 assert 1 == 2
-            sql = "delete  ws_sqqk where sqxh ="+"'"+sqxh+"'"
-            execute_sql(sql, 'wtwscl', 'wtwscl')
+            sql_delete = "delete  ws_sqqk where sqxh ="+"'"+sqxh+"'"
+            execute_sql(sql_delete, 'wtwscl', 'wtwscl')
         else:
             assert data["success"] == False

@@ -8,6 +8,6 @@
     <file url="file://$PROJECT_DIR$/dzswj_autotest_unittest/data/save_data/api_GetBsjd_details.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dzswj_autotest_unittest/data/test_data/api_GetBsjd_data.json" charset="GB18030" />
     <file url="file://$PROJECT_DIR$/dzswj_autotest_unittest/data/test_data/api_GetBsjd_data.yml" charset="GBK" />
-    <file url="PROJECT" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>
