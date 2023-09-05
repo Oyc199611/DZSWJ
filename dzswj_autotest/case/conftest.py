@@ -1,5 +1,7 @@
 # -*- coding:utf-8 -*-
 import os
+import time
+
 import pytest
 
 from dzswj_autotest.api.get_token import Get_Token
@@ -62,3 +64,32 @@ def host(request):
     # 获取命令行参数给到环境变量
     # pytest --cmdhost 运行指定环境
     os.environ["host"] = request.config.getoption("--cmdhost")
+
+
+# 测试执行完成后被调用,可以用于汇总测试结果并输出到终端，属于报告钩子
+def pytest_terminal_summary(terminalreporter, exitstatus, config):
+    """
+    收集测试结果
+    """
+    # print(terminalreporter.stats)
+    print("total:", terminalreporter._numcollected)
+    print('passed:', len(terminalreporter.stats.get('passed', [])))
+    print('failed:', len(terminalreporter.stats.get('failed', [])))
+    print('error:', len(terminalreporter.stats.get('error', [])))
+    print('skipped:', len(terminalreporter.stats.get('skipped', [])))
+    print('成功率：%.2f' % (len(terminalreporter.stats.get('passed', [])) / terminalreporter._numcollected * 100) + '%')
+    # terminalreporter._sessionstarttime 会话开始时间
+    duration = time.time() - terminalreporter._sessionstarttime
+    print('total times：', duration, 'seconds')
+
+
+# 用例执行钩子
+# @pytest.hookimpl(hookwrapper=True, tryfirst=True)
+# def pytest_runtest_makereport(item, call):
+#     print("------------------------Start---------------------------")
+#     out = yield
+#     res = out.get_result()
+#     print("执行结果：{}".format(res))
+#     print("测试用例：{}".format(item))
+#     print("测试步骤：{}".format(call))
+#     print("------------------------End---------------------------")
