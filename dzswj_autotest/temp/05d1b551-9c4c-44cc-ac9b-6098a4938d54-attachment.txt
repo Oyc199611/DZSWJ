@@ -1,0 +1,4 @@
+INFO     root:logger.py:48 test_BsjdQuery:------获取请求参数：------{'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '02', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}
+INFO     root:logger.py:48 test_BsjdQuery:------用例场景：------根据办税进度查询02状态
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://10.199.20.221:8081 "POST /yhs-web/api/bsjd/query/list HTTP/1.1" 200 None
+INFO     root:logger.py:48 test_BsjdQuery:获取请求结果：{'message': None, 'value': [], 'success': True, 'msgCode': None, 'resultMap': {}, 'msgParams': None, 'jylsh': '260a8d4199284d3386e1099e2ee79ad0'}

@@ -57,13 +57,13 @@ class Test_Service_Info(object):
         # 断言
         if data["success"] == True and len(data["value"]) != 0:
             sqxh = data["value"]["sqxh"]
-            sql_query = "select sqxh from ws_sqqk where sqxh ="+"'"+sqxh+"'"
+            sql_query = "select sqxh from ws_sqqk where sqxh =" + "'" + sqxh + "'"
             result = select_sql(sql_query, 'wtwscl', 'wtwscl')
             if result is not None:
                 assert sqxh == result[0]["SQXH"]
             else:
                 assert 1 == 2
-            sql_delete = "delete  ws_sqqk where sqxh ="+"'"+sqxh+"'"
+            sql_delete = "delete  ws_sqqk where sqxh =" + "'" + sqxh + "'"
             execute_sql(sql_delete, 'wtwscl', 'wtwscl')
         else:
             assert data["success"] == False

@@ -4,19 +4,8 @@
 @Time : 2023/8/24 11:25
 """
 
-
 import datetime
 import cx_Oracle as Co
-"""
-Code description: 配置连接数据库
-"""
-dbinfo = {
-    "host": "10.199.20.64",
-    "user": "root",
-    "password": "Servy0u",
-    "port": 3306
-}
-
 
 
 class OracleCon:
@@ -70,7 +59,6 @@ def execute_sql(sql, user, password):
     db.execute(sql)
     db.close()
 
-
 # if __name__ == '__main__':
 #     sql = "SELECT djxh  FROM ws_sqqk where sqxh = 'c50c7c0fe2f04f42bbb923297e7219bd'"
 #     # 结果格式 [{'XH': 20220516091200000001, 'PARAM_CODE': 'XTCS_DBSX_LX_20220516_BAK', 'PARAM_VALUE': 'WS,SB,NSRDB',
@@ -79,6 +67,3 @@ def execute_sql(sql, user, password):
 #     sel = select_sql(sql, 'wtwscl', 'wtwscl')
 #     if sel is not None:
 #         print(sel)
-
-
-

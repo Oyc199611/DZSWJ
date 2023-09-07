@@ -35,6 +35,12 @@ def clear_yaml():
     YamlUtil().clear_extract_yaml_cookie()
 
 
+# 这种夹具的引用，在需要引用的类(类中的每一个方法都会引用该夹具方法)或者函数前面用：@pytest.mark.usefixtures('test_clear_yaml')
+@pytest.fixture()
+def test_clear_yaml():
+    YamlUtil().clear_extract_yaml_cookie()
+
+
 # @pytest.fixture(scope="session", autouse=True)  # 自动作用于会话不需要被调用；此处作用：每次运行时，防止yaml中键值被重复写入，始终写入一个
 # def clear_yaml():
 #     YamlUtil().clear_extract_yaml_cookie()
@@ -81,7 +87,6 @@ def pytest_terminal_summary(terminalreporter, exitstatus, config):
     # terminalreporter._sessionstarttime 会话开始时间
     duration = time.time() - terminalreporter._sessionstarttime
     print('total times：', duration, 'seconds')
-
 
 # 用例执行钩子
 # @pytest.hookimpl(hookwrapper=True, tryfirst=True)

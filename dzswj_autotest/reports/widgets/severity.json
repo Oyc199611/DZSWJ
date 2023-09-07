@@ -1,120 +1,120 @@
 [ {
-  "uid" : "daae4d70d0bbe06c",
+  "uid" : "b718f3f4ab57963e",
   "name" : "test_BsjdQuery[caseinfo6]",
   "time" : {
-    "start" : 1693911720643,
-    "stop" : 1693911720845,
-    "duration" : 202
+    "start" : 1693984011040,
+    "stop" : 1693984011197,
+    "duration" : 157
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9dc43fabdae13648",
-  "name" : "test_BsjdQuery[caseinfo9]",
-  "time" : {
-    "start" : 1693911721157,
-    "stop" : 1693911721367,
-    "duration" : 210
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2e4d7cf8c0ca8e86",
-  "name" : "test_BsjdQuery[caseinfo4]",
-  "time" : {
-    "start" : 1693911720234,
-    "stop" : 1693911720435,
-    "duration" : 201
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9cc7f7f2a4357569",
+  "uid" : "4093b0b56e50bfd3",
   "name" : "test_BsjdQuery[caseinfo5]",
   "time" : {
-    "start" : 1693911720444,
-    "stop" : 1693911720638,
-    "duration" : 194
+    "start" : 1693984010914,
+    "stop" : 1693984011034,
+    "duration" : 120
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "825154095ef3be11",
-  "name" : "test_gzsb_submit[caseinfo0]",
-  "time" : {
-    "start" : 1693911721565,
-    "stop" : 1693911725346,
-    "duration" : 3781
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5fdb9c1ea93bde99",
-  "name" : "test_BsjdQuery[caseinfo2]",
-  "time" : {
-    "start" : 1693911719928,
-    "stop" : 1693911720024,
-    "duration" : 96
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "21b884c484d01712",
-  "name" : "test_BsjdQuery[caseinfo1]",
-  "time" : {
-    "start" : 1693911719830,
-    "stop" : 1693911719922,
-    "duration" : 92
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a2fe82bb9f1492ea",
-  "name" : "test_BsjdQuery[caseinfo10]",
-  "time" : {
-    "start" : 1693911721370,
-    "stop" : 1693911721560,
-    "duration" : 190
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "26c3fb3b70fe8c46",
+  "uid" : "78de55585798bf70",
   "name" : "test_BsjdQuery[caseinfo3]",
   "time" : {
-    "start" : 1693911720028,
-    "stop" : 1693911720228,
-    "duration" : 200
+    "start" : 1693984010579,
+    "stop" : 1693984010744,
+    "duration" : 165
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9c52d95b1322fab4",
-  "name" : "test_BsjdQuery[caseinfo0]",
+  "uid" : "ed4dd75011d8626b",
+  "name" : "test_BsjdQuery[caseinfo9]",
   "time" : {
-    "start" : 1693911719512,
-    "stop" : 1693911719820,
-    "duration" : 308
+    "start" : 1693984011582,
+    "stop" : 1693984011710,
+    "duration" : 128
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "987bfa73617b2342",
+  "uid" : "5c0bc5388ef77351",
+  "name" : "test_gzsb_submit[caseinfo0]",
+  "time" : {
+    "start" : 1693984011866,
+    "stop" : 1693984033232,
+    "duration" : 21366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69d226e2bb2f40d3",
+  "name" : "test_BsjdQuery[caseinfo4]",
+  "time" : {
+    "start" : 1693984010749,
+    "stop" : 1693984010882,
+    "duration" : 133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68b87d44838f7779",
   "name" : "test_BsjdQuery[caseinfo8]",
   "time" : {
-    "start" : 1693911720956,
-    "stop" : 1693911721150,
-    "duration" : 194
+    "start" : 1693984011469,
+    "stop" : 1693984011576,
+    "duration" : 107
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c2d3ebc3279bc78d",
+  "uid" : "bdd46610619e412c",
+  "name" : "test_BsjdQuery[caseinfo10]",
+  "time" : {
+    "start" : 1693984011744,
+    "stop" : 1693984011860,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5e71d32f01cbb44",
+  "name" : "test_BsjdQuery[caseinfo1]",
+  "time" : {
+    "start" : 1693984010394,
+    "stop" : 1693984010476,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21e321d0cbaa587b",
+  "name" : "test_BsjdQuery[caseinfo2]",
+  "time" : {
+    "start" : 1693984010483,
+    "stop" : 1693984010573,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ee0a1cd319f787d",
   "name" : "test_BsjdQuery[caseinfo7]",
   "time" : {
-    "start" : 1693911720850,
-    "stop" : 1693911720946,
-    "duration" : 96
+    "start" : 1693984011201,
+    "stop" : 1693984011462,
+    "duration" : 261
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2fa1cd62753d4fe",
+  "name" : "test_BsjdQuery[caseinfo0]",
+  "time" : {
+    "start" : 1693984009981,
+    "stop" : 1693984010334,
+    "duration" : 353
   },
   "status" : "passed",
   "severity" : "normal"

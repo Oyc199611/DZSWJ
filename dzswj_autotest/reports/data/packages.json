@@ -5,145 +5,145 @@
     "name" : "case.test_bsjd_service_info",
     "children" : [ {
       "name" : "test_BsjdQuery[caseinfo0]",
-      "uid" : "9c52d95b1322fab4",
+      "uid" : "d2fa1cd62753d4fe",
       "parentUid" : "7f7836a1167afdcf56934e094ec43ee4",
       "status" : "passed",
       "time" : {
-        "start" : 1693911719512,
-        "stop" : 1693911719820,
-        "duration" : 308
+        "start" : 1693984009981,
+        "stop" : 1693984010334,
+        "duration" : 353
       },
       "flaky" : false,
       "parameters" : [ "{'name': '无数据参数', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
     }, {
       "name" : "test_BsjdQuery[caseinfo1]",
-      "uid" : "21b884c484d01712",
+      "uid" : "f5e71d32f01cbb44",
       "parentUid" : "7f7836a1167afdcf56934e094ec43ee4",
       "status" : "passed",
       "time" : {
-        "start" : 1693911719830,
-        "stop" : 1693911719922,
-        "duration" : 92
+        "start" : 1693984010394,
+        "stop" : 1693984010476,
+        "duration" : 82
       },
       "flaky" : false,
       "parameters" : [ "{'name': '缺少必填项rqq参数', 'data': {'rqq': '', 'rqz': '2023-08-25', 'bsjd': '', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': '办税进度参数有空!'}" ]
     }, {
       "name" : "test_BsjdQuery[caseinfo2]",
-      "uid" : "5fdb9c1ea93bde99",
+      "uid" : "21e321d0cbaa587b",
       "parentUid" : "7f7836a1167afdcf56934e094ec43ee4",
       "status" : "passed",
       "time" : {
-        "start" : 1693911719928,
-        "stop" : 1693911720024,
-        "duration" : 96
+        "start" : 1693984010483,
+        "stop" : 1693984010573,
+        "duration" : 90
       },
       "flaky" : false,
       "parameters" : [ "{'name': '缺少必填项rqz参数', 'data': {'rqq': '2023-08-04', 'rqz': '', 'basjd': '', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': '办税进度参数有空!'}" ]
     }, {
       "name" : "test_BsjdQuery[caseinfo3]",
-      "uid" : "26c3fb3b70fe8c46",
+      "uid" : "78de55585798bf70",
       "parentUid" : "7f7836a1167afdcf56934e094ec43ee4",
       "status" : "passed",
       "time" : {
-        "start" : 1693911720028,
-        "stop" : 1693911720228,
-        "duration" : 200
+        "start" : 1693984010579,
+        "stop" : 1693984010744,
+        "duration" : 165
       },
       "flaky" : false,
       "parameters" : [ "{'name': '根据任务名称查询有数据', 'data': {'rqq': '2023-05-04', 'rqz': '2023-08-25', 'bsjd': '', 'rwmc': '变更税务登记', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
     }, {
       "name" : "test_BsjdQuery[caseinfo4]",
-      "uid" : "2e4d7cf8c0ca8e86",
+      "uid" : "69d226e2bb2f40d3",
       "parentUid" : "7f7836a1167afdcf56934e094ec43ee4",
       "status" : "passed",
       "time" : {
-        "start" : 1693911720234,
-        "stop" : 1693911720435,
-        "duration" : 201
+        "start" : 1693984010749,
+        "stop" : 1693984010882,
+        "duration" : 133
       },
       "flaky" : false,
       "parameters" : [ "{'name': '根据办税进度查询01状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '01', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
     }, {
       "name" : "test_BsjdQuery[caseinfo5]",
-      "uid" : "9cc7f7f2a4357569",
+      "uid" : "4093b0b56e50bfd3",
       "parentUid" : "7f7836a1167afdcf56934e094ec43ee4",
       "status" : "passed",
       "time" : {
-        "start" : 1693911720444,
-        "stop" : 1693911720638,
-        "duration" : 194
+        "start" : 1693984010914,
+        "stop" : 1693984011034,
+        "duration" : 120
       },
       "flaky" : false,
       "parameters" : [ "{'name': '根据办税进度查询02状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '02', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
     }, {
       "name" : "test_BsjdQuery[caseinfo6]",
-      "uid" : "daae4d70d0bbe06c",
+      "uid" : "b718f3f4ab57963e",
       "parentUid" : "7f7836a1167afdcf56934e094ec43ee4",
       "status" : "passed",
       "time" : {
-        "start" : 1693911720643,
-        "stop" : 1693911720845,
-        "duration" : 202
+        "start" : 1693984011040,
+        "stop" : 1693984011197,
+        "duration" : 157
       },
       "flaky" : false,
       "parameters" : [ "{'name': '根据办税进度查询03状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '03', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
     }, {
       "name" : "test_BsjdQuery[caseinfo7]",
-      "uid" : "c2d3ebc3279bc78d",
+      "uid" : "1ee0a1cd319f787d",
       "parentUid" : "7f7836a1167afdcf56934e094ec43ee4",
       "status" : "passed",
       "time" : {
-        "start" : 1693911720850,
-        "stop" : 1693911720946,
-        "duration" : 96
+        "start" : 1693984011201,
+        "stop" : 1693984011462,
+        "duration" : 261
       },
       "flaky" : false,
       "parameters" : [ "{'name': '根据办税进度查询04状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '04', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
     }, {
       "name" : "test_BsjdQuery[caseinfo8]",
-      "uid" : "987bfa73617b2342",
+      "uid" : "68b87d44838f7779",
       "parentUid" : "7f7836a1167afdcf56934e094ec43ee4",
       "status" : "passed",
       "time" : {
-        "start" : 1693911720956,
-        "stop" : 1693911721150,
-        "duration" : 194
+        "start" : 1693984011469,
+        "stop" : 1693984011576,
+        "duration" : 107
       },
       "flaky" : false,
       "parameters" : [ "{'name': '根据办税进度查询05状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '05', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
     }, {
       "name" : "test_BsjdQuery[caseinfo9]",
-      "uid" : "9dc43fabdae13648",
+      "uid" : "ed4dd75011d8626b",
       "parentUid" : "7f7836a1167afdcf56934e094ec43ee4",
       "status" : "passed",
       "time" : {
-        "start" : 1693911721157,
-        "stop" : 1693911721367,
-        "duration" : 210
+        "start" : 1693984011582,
+        "stop" : 1693984011710,
+        "duration" : 128
       },
       "flaky" : false,
       "parameters" : [ "{'name': '根据办税进度查询06状态', 'data': {'rqq': '2023-08-04', 'rqz': '2023-08-25', 'bsjd': '06', 'rwmc': '', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
     }, {
       "name" : "test_BsjdQuery[caseinfo10]",
-      "uid" : "a2fe82bb9f1492ea",
+      "uid" : "bdd46610619e412c",
       "parentUid" : "7f7836a1167afdcf56934e094ec43ee4",
       "status" : "passed",
       "time" : {
-        "start" : 1693911721370,
-        "stop" : 1693911721560,
-        "duration" : 190
+        "start" : 1693984011744,
+        "stop" : 1693984011860,
+        "duration" : 116
       },
       "flaky" : false,
       "parameters" : [ "{'name': '根据办税进度异常受理状态数据', 'data': {'rqq': '2023-05-04', 'rqz': '2023-03-25', 'bsjd': '07', 'rwmc': '变更税务登记${get_randon_number(1000,2000)}', 'bsjdlx': '', 'kqhDjxh': '', 'sfsbDm': '', 'fromtc': ''}, 'validate': True}" ]
     }, {
       "name" : "test_gzsb_submit[caseinfo0]",
-      "uid" : "825154095ef3be11",
+      "uid" : "5c0bc5388ef77351",
       "parentUid" : "7f7836a1167afdcf56934e094ec43ee4",
       "status" : "passed",
       "time" : {
-        "start" : 1693911721565,
-        "stop" : 1693911725346,
-        "duration" : 3781
+        "start" : 1693984011866,
+        "stop" : 1693984033232,
+        "duration" : 21366
       },
       "flaky" : false,
       "parameters" : [ "{'name': '提交', 'data': {'data': '{\"sbxxbg\":{\"queryParam\":{\"sbzl\":\"zzs\",\"skssqq\":\"2021-08-01\",\"skssqz\":\"2021-08-31\",\"djxh\":\"10111301000458741509\"},\"sbxx\":[{\"sbxxuuid\":\"bfa3379ebe2011ebb782389523093032\",\"sbzl\":\"增值税及附加税费申报表（一般纳税人适用）\",\"skssqq\":\"2021-08-01\",\"skssqz\":\"2021-08-31\",\"swsxDm\":\"16000005\",\"swsxMxDm\":\"\",\"fbzlDm\":\"1600000501\",\"fbzlMc\":\"增值税及附加税费申报表（一般纳税人适用）\",\"bslxDm\":\"1\",\"fbzlcllxDm\":\"\",\"fbzlczfs\":\"\",\"isRq\":\"\",\"needLz\":\"N\",\"tbsm\":\"\",\"needQz\":\"N\",\"fbzllxDm\":\"1\",\"maxSize\":\"\",\"bigFileType\":\"\",\"index\":0,\"scCount\":\"1\",\"bsmxlist\":[{\"fileKey\":\"77f264c7b51c476e87daeac31075edcf\",\"fileSize\":\"0.00\",\"fileName\":\"A0A969DF-2132-4DCC-A0FB-BFDBD99E70AB.jpg\",\"fbzlmxxh\":1,\"filetype\":\"jpg\"}]}],\"lxrxm\":\"哈哈啊\",\"lxdh\":\"13767594293\",\"nsrmc\":\"Y测试试509\",\"nsrsbh\":\"9326200000000MG019\"},\"fbzlList\":[{\"sbxxuuid\":\"bfa3379ebe2011ebb782389523093032\",\"sbzl\":\"增值税及附加税费申报表（一般纳税人适用）\",\"skssqq\":\"2021-08-01\",\"skssqz\":\"2021-08-31\",\"swsxDm\":\"16000005\",\"swsxMxDm\":\"\",\"fbzlDm\":\"1600000501\",\"fbzlMc\":\"增值税及附加税费申报表（一般纳税人适用）\",\"bslxDm\":\"1\",\"fbzlcllxDm\":\"\",\"fbzlczfs\":\"\",\"isRq\":\"\",\"needLz\":\"N\",\"tbsm\":\"\",\"needQz\":\"N\",\"fbzllxDm\":\"1\",\"maxSize\":\"\",\"bigFileType\":\"\",\"index\":0,\"scCount\":\"1\",\"bsmxlist\":[{\"fileKey\":\"77f264c7b51c476e87daeac31075edcf\",\"fileSize\":\"0.00\",\"fileName\":\"A0A969DF-2132-4DCC-A0FB-BFDBD99E70AB.jpg\",\"fbzlmxxh\":1,\"filetype\":\"jpg\"}]}],\"dataSourceFj\":[{\"sbxxuuid\":\"bfa3379ebe2011ebb782389523093032\",\"sbzl\":\"增值税及附加税费申报表（一般纳税人适用）\",\"skssqq\":\"2021-08-01\",\"skssqz\":\"2021-08-31\",\"swsxDm\":\"16000005\",\"swsxMxDm\":\"\",\"fbzlDm\":\"1600000501\",\"fbzlMc\":\"增值税及附加税费申报表（一般纳税人适用）\",\"bslxDm\":\"1\",\"fbzlcllxDm\":\"\",\"fbzlczfs\":\"\",\"isRq\":\"\",\"needLz\":\"N\",\"tbsm\":\"\",\"needQz\":\"N\",\"fbzllxDm\":\"1\",\"maxSize\":\"\",\"bigFileType\":\"\",\"index\":0,\"scCount\":\"1\",\"bsmxlist\":[{\"fileKey\":\"77f264c7b51c476e87daeac31075edcf\",\"fileSize\":\"0.00\",\"fileName\":\"A0A969DF-2132-4DCC-A0FB-BFDBD99E70AB.jpg\",\"fbzlmxxh\":1,\"filetype\":\"jpg\"}]}]}', 'fbzlList': '[{\"sbxxuuid\":\"bfa3379ebe2011ebb782389523093032\",\"sbzl\":\"增值税及附加税费申报表（一般纳税人适用）\",\"skssqq\":\"2021-08-01\",\"skssqz\":\"2021-08-31\",\"swsxDm\":\"16000005\",\"swsxMxDm\":\"\",\"fbzlDm\":\"1600000501\",\"fbzlMc\":\"增值税及附加税费申报表（一般纳税人适用）\",\"bslxDm\":\"1\",\"fbzlcllxDm\":\"\",\"fbzlczfs\":\"\",\"isRq\":\"\",\"needLz\":\"N\",\"tbsm\":\"\",\"needQz\":\"N\",\"fbzllxDm\":\"1\",\"maxSize\":\"\",\"bigFileType\":\"\",\"index\":0,\"scCount\":\"1\",\"bsmxlist\":[{\"fileKey\":\"77f264c7b51c476e87daeac31075edcf\",\"fileSize\":\"0.00\",\"fileName\":\"A0A969DF-2132-4DCC-A0FB-BFDBD99E70AB.jpg\",\"fbzlmxxh\":1,\"filetype\":\"jpg\"}]}]', 'swsxMxList': '[]', 'caqmxx': '{\"xlh\":\"\",\"lx\":\"\",\"zh\":\"\",\"qmnr\":\"\"}', 'dlbsbz': 'N', 'jbrxx': '{}'}, 'validate': True}" ]
